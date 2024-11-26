@@ -1,10 +1,9 @@
-/* Body style */
+
 body {
     background: linear-gradient(to right, #fbc2eb, #a6c1ee);
     font-family: 'Roboto', sans-serif;
   }
   
-  /* Main container for the form */
   .auth-container {
     max-width: 400px;
     margin: 50px auto;
@@ -16,7 +15,6 @@ body {
     transition: all 0.3s ease;
   }
   
-  /* Heading */
   .auth-container h2 {
     font-size: 24px;
     color: #4c4c4c;
@@ -24,20 +22,17 @@ body {
     font-weight: bold;
   }
   
-  /* Form group styles */
   .form-group {
     margin-bottom: 20px;
     text-align: left;
   }
   
-  /* Labels */
   .form-group label {
     font-size: 14px;
     color: #555555;
     margin-bottom: 5px;
   }
   
-  /* Input Fields */
   .form-control {
     width: 100%;
     padding: 12px;
@@ -55,7 +50,6 @@ body {
     outline: none;
   }
   
-  /* Button Styles */
   .btn-primary {
     width: 100%;
     padding: 12px;
@@ -72,7 +66,6 @@ body {
     background-color: #3b7cf5;
   }
   
-  /* Link to switch between login/signup */
   p {
     font-size: 14px;
     color: #555555;
@@ -92,7 +85,6 @@ body {
     color: #3b7cf5;
   }
   
-  /* Select Role Dropdown */
   .select-role {
     background-color: #fafafa;
     border: 2px solid #e0e0e0;
@@ -107,7 +99,6 @@ body {
     border-color: #a6c1ee;
   }
   
-  /* Subtle animation */
   .auth-container:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
